@@ -5,7 +5,7 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './home/welcome.component';
-import { StudentModule } from './products/student.module';
+import { StudentModule } from './students/student.module';
 
 @NgModule({
   declarations: [

@@ -10,9 +10,6 @@ import { Component } from '@angular/core';
       </a>
       <ul class='nav nav-pills'>
         <li><a class='nav-link' [routerLink]="['/welcome']"><i class="fa fa-home" style="margin-right: 10px"></i>Strona Główna</a></li>
-        <li><a class='nav-link' [routerLink]="['/students']">
-            <i class="fa fa-list-ul" style="margin-right: 10px"></i>Lista Studentów</a>
-        </li>
       </ul>
     </nav>
     <div class='container-fluid'>
