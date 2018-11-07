@@ -10,7 +10,7 @@
     "imageUrl": "../../assets/images/student1.png"
   },
   {
-    "studentId": 1,
+    "studentId": 2,
     "name": "Tomek",
     "surname": "Bąk",
     "index": "112351",
@@ -20,7 +20,7 @@
     "imageUrl": "../../assets/images/student2.png"
   },
   {
-    "studentId": 1,
+    "studentId": 3,
     "name": "Andrzej",
     "surname": "Nowak",
     "index": "125127",

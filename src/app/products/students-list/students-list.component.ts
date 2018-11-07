@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IStudent } from '../models/student';
-import { ProductService } from '../services/students.service';
+import { StudentService } from '../services/students.service';
 
 @Component({
   templateUrl: './students-list.component.html',
@@ -25,7 +25,7 @@ export class StudentsListComponent implements OnInit {
   filteredStudents: IStudent[];
   students: IStudent[] = [];
 
-  constructor(private productService: ProductService) {
+  constructor(private productService: StudentService) {
 
   }
 
@@ -44,7 +44,7 @@ export class StudentsListComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.productService.getProducts().subscribe(
+    this.productService.getStudents().subscribe(
       products => {
         this.students = products;
         this.filteredStudents = this.students;

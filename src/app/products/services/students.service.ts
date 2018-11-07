@@ -8,12 +8,12 @@ import { IStudent } from '../models/student';
 @Injectable({
   providedIn: 'root'
 })
-export class ProductService {
+export class StudentService {
   private productUrl = 'api/students/students.json';
 
   constructor(private http: HttpClient) { }
 
-  getProducts(): Observable<IStudent[]> {
+  getStudents(): Observable<IStudent[]> {
     return this.http.get<IStudent[]>(this.productUrl).pipe(
       catchError(this.handleError)
     );
