@@ -1,0 +1,33 @@
+[
+  {
+    "studentId": 1,
+    "name": "Adam",
+    "surname": "Kowalski",
+    "index": "125122",
+    "description": "Lorem ipsum dolor sit amet enim ...",
+    "pesel": "92053102531",
+    "average": 3.5,
+    "imageUrl": "../../assets/images/student1.png"
+  },
+  {
+    "studentId": 1,
+    "name": "Tomek",
+    "surname": "Bąk",
+    "index": "112351",
+    "description": "Lorem ipsum dolor sit amet enim ...",
+    "pesel": "92053102531",
+    "average": 4,
+    "imageUrl": "../../assets/images/student2.png"
+  },
+  {
+    "studentId": 1,
+    "name": "Andrzej",
+    "surname": "Nowak",
+    "index": "125127",
+    "description": "Lorem ipsum dolor sit amet enim ...",
+    "pesel": "92053102531",
+    "average": 3,
+    "imageUrl": "../../assets/images/student3.png"
+  }
+
+]
